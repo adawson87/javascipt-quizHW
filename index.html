@@ -9,12 +9,25 @@
 </head>
 <body>
    <div class="container">
-       <div id="home" class="flex-column flex">
-           <h1>Lets Play</h1>
+       <div id="question-container" class="hide"></div>
+       <div id="questions">Question</div>
+       <div id="answer-buttons" class="btn-grid">
+           <button class="btn">Answer1</button>
+           <button class="btn">Answer2</button>
+           <button class="btn">Answer3</button>
+           <button class="btn">Answer4</button>
+       </div>
+       <div class="controls">
+           <button id="startBtn" class="startBtn btn">Start</button>
+           <button id="nextBtn" class="nextBtn btn hide">Next</button>
+
+       </div>
+           <!-- <h1>Lets Play</h1>
            <a href="/Start.html" class="btn">Start</a>
            <a href="/hiScore.html" id="hiScore-btn" class="btn">hiScore<i class="fas fa-crown"></i></a>
-          
+           -->
        </div>
    </div>
+   <script src="quiz.js"></script>
 </body>
 </html>
